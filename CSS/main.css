@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: #555;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -96,12 +96,73 @@ textarea {
    ========================================================================== */
 
 
+.wrapper {
+  padding: 30px 0;
+}
 
+.photo-row {
+  text-align: center;
+}
 
+.photo-row img {
+  padding: 0 30px 30px 0;
+}
 
+p.author {
+  float: right;
+}
 
+.body-text {
+  padding: 4em 20em;
+}
 
+.body-text p {
+  font-size: 1.3em;
+}
 
+@media (min-width: 1201px) and (max-width: 1615px) {
+  .photo-row img {
+    max-width: 350px;
+  }
+
+  .photo-row img {
+    padding: 0 20px 20px 0;
+  }
+
+  .body-text {
+    padding: 3em 15em;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .photo-row img {
+    max-width: 225px;
+  }
+
+  .photo-row img {
+    padding: 0 10px 10px 0;
+  }
+
+  .body-text {
+    padding: 2em 7em;
+  }
+}
+
+@media (max-width: 899px) {
+  .photo-row img {
+    display: block;
+    text-align: center;
+    margin:0 auto;
+  }
+
+  .body-text {
+    padding: 2em;
+  }
+
+  h1 {
+    font-size: 1.7em;
+  }
+}
 
 
 
